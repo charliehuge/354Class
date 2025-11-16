@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{764b9d94-cfca-49ca-ac7c-02f2d6cf75fa}">
+		<property name="assetPath">
+			<value>Background Music.mp3</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>28.290612244897961</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{4d5ae4f7-326a-46d9-8668-c2ef3aa526cb}</destination>
+		</relationship>
+	</object>
+</objects>
