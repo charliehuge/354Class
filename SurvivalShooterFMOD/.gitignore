@@ -1,0 +1,8 @@
+# Ignore FMOD log files
+fmod.log
+fmod_editor.log
+
+# Ignore FMOD Studio project hidden folders
+.cache/
+.restore/
+.user/
