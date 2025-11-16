@@ -1,11 +1,12 @@
-﻿using UnityEngine;
+﻿using FMODUnity;
+using UnityEngine;
 
 namespace CompleteProject
 {
     public class GameOverManager : MonoBehaviour
     {
         public PlayerHealth playerHealth;       // Reference to the player's health.
-
+        public StudioEventEmitter musicEmitter;
 
         Animator anim;                          // Reference to the animator component.
 
@@ -24,6 +25,9 @@ namespace CompleteProject
             {
                 // ... tell the animator the game is over.
                 anim.SetTrigger ("GameOver");
+                
+                // and stop the music
+                musicEmitter.Stop();
             }
         }
     }
